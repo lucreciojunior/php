@@ -1,0 +1,32 @@
+cadastro:
+  valida_home:
+    type: 'xpath'
+    value: '//div//h1[text()="PHPTRAVELS Demo"]'
+  nome:
+    type: 'css'
+    value: 'input[name="first_name"]'
+  sobrenome:
+    type: 'css'
+    value: 'input[name="last_name"]'
+  empresa:
+    type: 'css'
+    value: 'input[name="business_name"]'
+  email:
+    type: 'css'
+    value: 'input[name="email"]'
+  button_enviar:
+    type: 'css' 
+    value: 'button[id="demo"]'
+  number1:
+    type: 'css'
+    value: 'span[id="numb1"]'
+  number2:
+    type: 'css'
+    value: 'span[id="numb2"]'
+  result:
+    type: 'css'
+    value: 'input[id="number"]'
+  valida_home:
+    type: 'xpath'
+    value: '//strong[text()=" Thank you!"]'
+  
